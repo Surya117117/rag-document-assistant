@@ -2,7 +2,7 @@ from loaders.loader import load_documents
 from chunking.chunking import split_documents
 from embeddings.embedding_manager import EmbeddingManager
 from vectorstore.vectorstore import VectorStore
-from retrieval.retriver import RAGRetriever
+from retrievers.retriver import RAGRetriever
 from llm.llm import load_llm
 
 
